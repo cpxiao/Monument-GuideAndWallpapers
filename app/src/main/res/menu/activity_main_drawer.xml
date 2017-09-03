@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/monument_valley">
+        <menu>
+            <item
+                android:id="@+id/original"
+                android:icon="@drawable/m1_1"
+                android:title="@string/monument_valley_original"/>
+            <item
+                android:id="@+id/forgotten_shores"
+                android:icon="@drawable/m1_2"
+                android:title="@string/monument_valley_forgotten_shores"/>
+            <item
+                android:id="@+id/ida_dream"
+                android:icon="@drawable/m1_3"
+                android:title="@string/monument_valley_ida_dream"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/monument_valley2">
+        <menu>
+            <item
+                android:id="@+id/original2"
+                android:icon="@drawable/m2_1"
+                android:title="@string/monument_valley_original"/>
+
+        </menu>
+    </item>
+
+</menu>
